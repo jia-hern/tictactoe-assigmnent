@@ -44,7 +44,7 @@
 
 ##### Sprint 3 - Sat
 
--
+- try adding some unit test then do validation
 
 #### Bugs & Issues Faced
 
@@ -54,7 +54,7 @@
 no form of dependency is required for installation.
 Assuming that you have a code editor with python installed,
 
-clone the repository by typing into your terminal:<br>
+clone the repository by typing into your terminal: <br>
 git clone https://github.com/jia-hern/tictactoe-assigmnent.git
 
 to run this file, right click on tictactoe.py and select Run Python File in Terminal

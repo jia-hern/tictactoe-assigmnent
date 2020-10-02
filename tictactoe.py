@@ -49,11 +49,12 @@ def game():
             print("That place is already filled.\nMove to which place?")
             continue
 
-        # Check if player 1 or 2 has won (minimally need 5 turns)
-        # 8 possible scenarios
+        # print the statement that the player won
         def printFinish(turn):
             print("Congratulations " +
                   players[turn] + "! You have won.")
+        # Check if player 1 or 2 has won (minimally need 5 turns)
+        # 8 possible scenarios
 
         if count >= 5:
             if theBoard['7'] == theBoard['8'] == theBoard['9'] in ['X', '0']:  # across the bottom
