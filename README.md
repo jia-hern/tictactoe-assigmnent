@@ -54,7 +54,11 @@
 no form of dependency is required for installation.
 Assuming that you have a code editor with python installed,
 
+<<<<<<< HEAD
 clone the repository by typing into your terminal: <br>
+=======
+clone the repository by typing into your terminal:<br>
+>>>>>>> de3b6841ef2edd49d8d062dbab9b4fd468a73bee
 git clone https://github.com/jia-hern/tictactoe-assigmnent.git
 
 to run this file, right click on tictactoe.py and select Run Python File in Terminal
