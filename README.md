@@ -54,7 +54,7 @@
 
 Assuming that you have a code editor with python installed,
 
-clone the repository by typing into your terminal:
+clone the repository by typing into your terminal:<br>
 git clone https://github.com/jia-hern/tictactoe-assigmnent.git
 
 to run the file, right click on tictactoe.py and select Run Python File in Terminal
