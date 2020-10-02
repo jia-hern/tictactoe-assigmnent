@@ -29,8 +29,8 @@
 
 #### What to add from there
 
-1. Validation of user input, for names and x/o
-2. unit testing
+1. Unit testing
+2. Validation of user input, for names and x/o
 
 #### Approach
 
@@ -48,13 +48,13 @@
 
 #### Bugs & Issues Faced
 
-- keyying inputs directly into the noce terminal and manipulating the data from there
+- keying inputs directly into the noce terminal and manipulating the data from there
 
 **Run instructions**
-
+no form of dependency is required for installation.
 Assuming that you have a code editor with python installed,
 
-clone the repository by typing into your terminal:
+clone the repository by typing into your terminal: <br>
 git clone https://github.com/jia-hern/tictactoe-assigmnent.git
 
-to run the file, right click on tictactoe.py and select Run Python File in Terminal
+to run this file, right click on tictactoe.py and select Run Python File in Terminal
