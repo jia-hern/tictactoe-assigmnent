@@ -57,35 +57,35 @@ def game():
         # 8 possible scenarios
 
         if count >= 5:
-            if theBoard['7'] == theBoard['8'] == theBoard['9'] in ['X', '0']:  # across the bottom
+            if theBoard['7'] == theBoard['8'] == theBoard['9']:  # across the bottom
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['4'] == theBoard['5'] == theBoard['6'] in ['X', '0']:  # across the middle
+            elif theBoard['4'] == theBoard['5'] == theBoard['6']:  # across the middle
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['1'] == theBoard['2'] == theBoard['3'] in ['X', '0']:  # across the top
+            elif theBoard['1'] == theBoard['2'] == theBoard['3']:  # across the top
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['1'] == theBoard['4'] == theBoard['7'] in ['X', '0']:  # down the left side
+            elif theBoard['1'] == theBoard['4'] == theBoard['7']:  # down the left side
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['2'] == theBoard['5'] == theBoard['8'] in ['X', '0']:  # down the middle
+            elif theBoard['2'] == theBoard['5'] == theBoard['8']:  # down the middle
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['3'] == theBoard['6'] == theBoard['9'] in ['X', '0']:  # down the right side
+            elif theBoard['3'] == theBoard['6'] == theBoard['9']:  # down the right side
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['7'] == theBoard['5'] == theBoard['3'] in ['X', '0']:  # diagonal
+            elif theBoard['7'] == theBoard['5'] == theBoard['3']:  # diagonal
                 printBoard(theBoard)
                 printFinish(turn)
                 break
-            elif theBoard['1'] == theBoard['5'] == theBoard['9'] in ['X', '0']:  # diagonal
+            elif theBoard['1'] == theBoard['5'] == theBoard['9']:  # diagonal
                 printBoard(theBoard)
                 printFinish(turn)
                 break
@@ -112,6 +112,3 @@ def game():
 
 if __name__ == "__main__":
     game()
-
-# include prompt for player names
-# need to change statement to player, "choose a box to place an", .. "into:"

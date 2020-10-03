@@ -40,15 +40,18 @@
 
 ##### Sprint 2 - Fri
 
+- Trying to use an index. html was starting to complicate this unnecessarily
 - python does something similar so lets use that
 
 ##### Sprint 3 - Sat
 
-- try adding some unit test then do validation
+- Debugging
 
 #### Bugs & Issues Faced
 
-- keying inputs directly into the noce terminal and manipulating the data from there
+- keying inputs directly into node terminal and manipulating the data from there
+- should have came up with a more robust way to check for the user's input before proceeding
+- should have separated the different parts of the code into smaller functions so that unit testing can be done
 
 **Run instructions**
 no form of dependency is required for installation.
