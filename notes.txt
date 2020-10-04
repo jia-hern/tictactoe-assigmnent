@@ -1,0 +1,3 @@
+The purpose of tictactoe2.py is to refactor the code in tictactoe.py
+into smaller functions that take an input and return an output so that we can do unti testing.
+
