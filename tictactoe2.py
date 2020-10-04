@@ -1,19 +1,21 @@
-def checkalpha():  # 1 this functions checks that string contains at least 1 letter
+def checkalpha(number):  # 1 this functions checks that string contains at least 1 letter
     while True:
-        string = input('Type in a string: ')
+        string = input("Enter name for Player "+number+":")
         if (any(c.isalpha() for c in string)):
             return string
         else:
-            print('Please enter a string with at least an alphabet')
+            print('Please enter a name with at least an alphabet')
 
 
 def playerName(number, players, name):  # 2 this function adds a new player name to a dictionary
     players[number] = name
 
 
-def checkBox(board, turn):  # 3 this functions checks if board location is occupied/ a number
+# 3 this functions checks if board location is occupied/ a number
+def checkBox(board, players, turn):
     while True:
-        move = input('Choose an unoccupied place on the board: ')
+        move = input(players[turn] +
+                     ', choose a box to place an ' + turn + ' into: ')
         if move not in ('1', '2', '3', '4', '5', '6', '7', '8', '9'):
             print('key in a number from 1-9!')
         elif board[move] in ('X', 'O'):

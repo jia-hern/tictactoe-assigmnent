@@ -16,21 +16,26 @@ def game():
     condition = False
     players = {'X': '', 'O': ''}
 
-    name1 = checkalpha()
-    name2 = checkalpha()
+    # ask players for names
+    name1 = checkalpha("1")
+    name2 = checkalpha("2")
 
     playerName(number='X', players=players, name=name1)
     playerName(number='O', players=players, name=name2)
 
     for _ in range(9):
-        currentBoard = checkBox(board, turn)
+        # ask for user input for placement on board
+        currentBoard = checkBox(board, players, turn)
+        # show the tictactoe board
         printBoard(currentBoard)
-        condition = checkWin(currentBoard, turn, condition)
+        count += 1
+        # can skip checking for wins in the first 4 turns:
+        if count >= 5:
+            condition = checkWin(currentBoard, turn, condition)
         # exit loop if win condition detected
         if(condition):
             print("Congratulations " + players[turn] + "! You have won :D")
             break
-        count += 1
 
         # end game if tie
         if count == 9:
