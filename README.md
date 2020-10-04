@@ -30,7 +30,7 @@
 #### What to add from there
 
 1. Unit testing
-2. Validation of user input, for names and x/o
+2. Validation of user input, for names and x/o (done)
 
 #### Approach
 
@@ -47,11 +47,14 @@
 
 - Debugging
 
+##### Sprint 4 - Sun
+
+- broke down the code into smaller functions
+- included validation for user inputs
+
 #### Bugs & Issues Faced
 
 - keying inputs directly into node terminal and manipulating the data from there
-- should have came up with a more robust way to check for the user's input before proceeding
-- should have separated the different parts of the code into smaller functions so that unit testing can be done
 
 **Run instructions**
 no form of dependency is required for installation.
