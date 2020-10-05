@@ -74,3 +74,5 @@ to try out the units test, right click on sometest.py and select Run Python File
 Inputs to pass all tests:
 For this prompt : "John Doe, choose a box to place an X into: " Input ---> 3
 For this prompt : "..Enter name for Player 1:" Input ---> John Doe
+
+#### ANY ADVICE ON HOW THIS CAN BE IMPROVED WOULD BE GREATLY APPRECIATED
