@@ -9,6 +9,7 @@ def checkalpha(number):  # 1 this functions checks that string contains at least
 
 def playerName(number, players, name):  # 2 this function adds a new player name to a dictionary
     players[number] = name
+    return players
 
 
 # 3 this functions checks if board location is occupied/ a number
@@ -25,7 +26,7 @@ def checkBox(board, players, turn):
             return board
 
 
-def checkWin(board, turn, condition):  # 5 this function checks for 3 connecting points
+def checkWin(board, turn, condition):  # 4 this function checks for 3 connecting points
     if board['7'] == board['8'] == board['9']:  # across the bottom
         condition = True
         return condition
@@ -52,7 +53,7 @@ def checkWin(board, turn, condition):  # 5 this function checks for 3 connecting
         return condition
 
 
-def printBoard(board):
+def printBoard(board):  # 5 this function prints the board
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
     print('-+-+-')
     print(board['4'] + '|' + board['5'] + '|' + board['6'])
