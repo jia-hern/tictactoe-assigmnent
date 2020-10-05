@@ -29,7 +29,7 @@
 
 #### What to add from there
 
-1. Unit testing
+1. Unit testing (Done)
 2. Validation of user input, for names and x/o (done)
 
 #### Approach
@@ -52,9 +52,14 @@
 - broke down the code into smaller functions
 - included validation for user inputs
 
+##### Sprint 5 - Mon
+
+- Wrote some unit tests
+
 #### Bugs & Issues Faced
 
 - keying inputs directly into node terminal and manipulating the data from there
+- Pretty new to unit testing
 
 **Run instructions**
 no form of dependency is required for installation.
@@ -64,3 +69,8 @@ clone the repository by typing into your terminal: <br>
 git clone https://github.com/jia-hern/tictactoe-assigmnent.git
 
 to run this file, right click on main2.py and select Run Python File in Terminal
+
+to try out the units test, right click on sometest.py and select Run Python File in Terminal
+Inputs to pass all tests:
+For this prompt : "John Doe, choose a box to place an X into: " Input ---> 3
+For this prompt : "..Enter name for Player 1:" Input ---> John Doe
